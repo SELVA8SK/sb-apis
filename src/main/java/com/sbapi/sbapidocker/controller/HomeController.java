@@ -15,7 +15,7 @@ public class HomeController {
 	
 	
 	@GetMapping("/message")
-	public String getMessage()
+	public String getMessages()
 	{
 		return "Home Called and method is getMessage";
 	}
