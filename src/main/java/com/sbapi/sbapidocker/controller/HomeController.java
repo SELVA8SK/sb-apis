@@ -24,7 +24,6 @@ public class HomeController {
 		return "Home Called";
 	}
 	
-	
 	@GetMapping("/message")
 	public String getMessages()
 	{
